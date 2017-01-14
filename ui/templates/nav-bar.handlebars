@@ -1,0 +1,14 @@
+<nav class="blue lighten-1">
+  <div class="nav-wrapper container">
+    <a href="#!" class="brand-logo">Team4Element</a>
+    <ul class="right hide-on-med-and-down">
+      {{#if this.isTeleop}}
+        <li><a class="waves-effect waves-light btn light-green">TELEOP</a></li>
+        <li><a class="waves-effect waves-light btn brown darken-4">AUTONOMOUS</a></li>
+      {{else}}
+        <li><a class="waves-effect waves-light btn brown darken-4">TELEOP</a></li>
+        <li><a class="waves-effect waves-light btn light-green">AUTONOMOUS</a></li>
+      {{/if}}
+    </ul>
+  </div>
+</nav>

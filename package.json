@@ -1,0 +1,24 @@
+{
+  "name": "frc-py-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "materialize-css": "^0.97.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justAdevTV/frc-py-webdashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justAdevTV/frc-py-webdashboard/issues"
+  },
+  "homepage": "https://github.com/justAdevTV/frc-py-webdashboard#readme"
+}
